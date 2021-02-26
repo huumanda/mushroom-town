@@ -1,19 +1,10 @@
 
 html{
-    background-color: sandybrown;
+    background-color: #FFE4C4;
 }
 
-html, body{
-        height: 100%; width: 100%; 
-        margin: auto; padding: 0;
- }
-
- .wrapper{
-    min-height: 300px; width: 500px;
-    margin: 0 0 auto 0;
- }
-
-body,#leaves,#leaves2{
+/*  
+#leaves,#leaves2,#leaves3{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -24,7 +15,7 @@ body,#leaves,#leaves2{
     
     padding:0;
     margin:0;
-}
+} */
 
 #leaves{
     justify-content: flex-end;
@@ -35,8 +26,113 @@ body,#leaves,#leaves2{
     justify-content: flex-end;
 }
 
-/* Back to beginning */
+#leaves3{
+    justify-content: flex-start;
+    right: 30px;
+    top: 30px;
+} */
 
+.wrapper{
+    min-height: 1080px; min-width: 960px;
+    height: 100%; width: 100%;
+ } 
+
+
+.path{
+    position: absolute;
+    left: 35%;
+    width: 300px;
+    height: 180%;
+    background-color: saddlebrown;
+    border: solid;
+    border-width: 0 10px 0px 10px;
+    border-color: #F4A460 ;
+  }
+
+.path::before{
+    content: " ";
+    position: absolute;
+    display: flex;
+    left: 210px;
+    width: 120vh;
+    height: 300px;
+    top: 500px;
+    background-color: saddlebrown;
+    border: solid;
+    border-width: 10px 0px 10px 0px;
+    border-color: #F4A460;
+}
+
+.path::after{
+    content: " ";
+    position: absolute;
+    display: flex;
+    left: 210px;
+    width: 90px;
+    height: 300px;
+    top: 500px;
+    background-color: saddlebrown;
+    border: solid;
+    border-width: 10px 0px 10px 0px;
+    border-color: saddlebrown ;
+}
+  
+#kitchen{
+    background-color: transparent;
+    position: absolute;
+    display: flex ;
+    left: 1160px;
+    padding: 0%;
+    margin: 0%;
+    z-index: -1;
+}
+
+.link a{
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    width: 75px;
+    height: 175px;
+    left: 1310px;
+    top: 310px;
+    background-color: transparent;
+    border-radius: 30px 20px 20px 0;
+}
+
+#NotKitchen{
+    background-color: transparent;
+    position: absolute;
+    display: flex ;
+    padding: 0%;
+    margin: 0%;
+    z-index: 1;
+    top: 950px;
+    left: 25px;
+}
+
+.link-notKitchen{
+    width: 100px;
+    height: 130px;
+    background-color: transparent;
+    display: flex ;
+    position: absolute;
+    left: 170px;
+    top: 1300px;
+    z-index: 3;
+}
+
+#shroomMisc{
+    background-color: transparent;
+    position: absolute;
+    display: flex ;
+    padding: 0%;
+    margin: 0%;
+    z-index: 1;
+    top: 780px;
+    left: 800px;
+}
+
+/* 
   .shroomDoor a{
     background:black;
     width: 30px;
@@ -57,45 +153,45 @@ body,#leaves,#leaves2{
     position: absolute;
     display: flex;
     z-index: 1;
-  }
-
+  } */
+/* 
  .horizon{
     position: relative;
     display: flex;
-    width: 1720px;
+    width: 100%;
     height: 2px;
     top: 200px;
     padding: 0;
     margin: 0;
     background-color: saddlebrown;
     z-index: -3;
-} 
+}  */
 
-.path{
+
+/* .path{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    left: 420px;
+    left: 35%;
     width: 300px;
-    height: 1240px;
-    top: 25%;
+    height: 100%;
+    top: 200px;
     background-color: saddlebrown;
     border: solid;
     border-width: 0 10px 0px 10px;
-    border-color: #C0C0C0 ;
+    border-color: #F4A460 ;
 }
 
 .pathLeft{
     position: absolute;
     display: flex;
-    left: 100%;
-    width: 1000px;
+    width: 100%;
     height: 300px;
-    top: 25%;
+    top: 500px;
     background-color: saddlebrown;
-}
+    border: solid;
+    border-width: 10px 0px 10px 0px;
+    border-color: #F4A460 ;
 
-
+} */
 
 .arrow-up{
     padding: 50px;
@@ -152,6 +248,212 @@ body,#leaves,#leaves2{
 .arrow-right:hover{
     box-shadow: 2px -2px 0 2px white inset;
 }
+ 
+
+/*
+
+
+
+
+
+.link a{
+    position: relative;
+    display: flex;
+    z-index: 2;
+    width: 75px;
+    height: 175px;
+    left: 1170px;
+    bottom: 180px;
+    background-color: transparent;
+    border-radius: 30px 20px 20px 0;
+}
+
+
+
+} */
+
+
+  /* Kitchen/Edible mushrooms */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*pixels
+
+/* 
+html{
+    background-color: #FFE4C4;
+}
+
+html, body{
+        height: 100%; width: 100%; 
+        margin: 0 auto; padding: 0;
+ }
+
+ 
+ 
+
+body,#leaves,#leaves2,#leaves3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    background: transparent;
+       
+    background-size: cover;
+    
+    padding:0;
+    margin:0;
+}
+
+#leaves{
+    justify-content: flex-end;
+    left: 280px;
+}
+#leaves2{
+    top: 75%;
+    justify-content: flex-end;
+}
+
+#leaves3{
+    justify-content: flex-start;
+    right: 30px;
+    top: 30px;
+}
+
+/* Back to beginning */
+
+  /* .shroomDoor a{
+    background:black;
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    z-index: 2;
+  }
+
+  .shroomDoorKnob{
+    background:white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    right: 20px;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+  }
+
+ .horizon{
+    position: relative;
+    display: flex;
+    width: 1720px;
+    height: 2px;
+    top: 200px;
+    padding: 0;
+    margin: 0;
+    background-color: saddlebrown;
+    z-index: -3;
+} 
+
+.path{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 420px;
+    width: 300px;
+    height: 1240px;
+    top: 25%;
+    background-color: saddlebrown;
+    border: solid;
+    border-width: 0 10px 0px 10px;
+    border-color: #F4A460 ;
+}
+
+.pathLeft{
+    position: absolute;
+    display: flex;
+    left: 100%;
+    width: 1000px;
+    height: 300px;
+    top: 25%;
+    background-color: saddlebrown;
+    border: solid;
+    border-width: 10px 0px 10px 0px;
+    border-color: #F4A460 ;
+
+}
+
+
+
+.arrow-up{
+    padding: 50px;
+    /* border: solid blue; */
+    /* transition: .24s;
+    position: absolute;
+    border: solid transparent;
+    border-width: 0 0 25px 25px;
+    box-shadow: 1px -1px 0 1px white inset;
+    transform:  rotate(135deg);
+    z-index: 5;
+    left: 510px;
+    top: 280px;
+}
+
+.arrow-up:hover{
+    box-shadow: 2px -2px 0 2px white inset;
+}
+
+
+.arrow-down{
+    padding: 50px;
+    border: solid blue;
+    transition: .24s;
+    position: absolute;
+    border: solid transparent;
+    border-width: 0 0 25px 25px;
+    box-shadow: 1px -1px 0 1px white inset;
+    transform:  rotate(-45deg);
+    z-index: 5;   
+    left: 510px;
+    bottom: -550px;
+
+}
+
+.arrow-down:hover{
+    box-shadow: 2px -2px 0 2px white inset;
+}
+
+.arrow-right{
+    padding: 50px;
+    border: solid blue;
+    transition: .24s;
+    position: absolute;
+    border: solid transparent;
+    border-width: 0 0 25px 25px;
+    box-shadow: 1px -1px 0 1px white inset;
+    transform:  rotate(-135deg);
+    z-index: 5;
+    left: 1500px;
+    top: 600px;
+}
+
+.arrow-right:hover{
+    box-shadow: 2px -2px 0 2px white inset;
+}
 
 #kitchen{
     background-color: transparent;
@@ -169,7 +471,7 @@ body,#leaves,#leaves2{
     display: flex ;
     padding: 0%;
     margin: 0%;
-    z-index: -1;
+    z-index: 1;
     top: 150px;
     left: 25px;
 }
@@ -208,8 +510,7 @@ body,#leaves,#leaves2{
     left: 170px;
     bottom: -10px;
     z-index: 3;
-}
+} */
 
 
   /* Kitchen/Edible mushrooms */
-

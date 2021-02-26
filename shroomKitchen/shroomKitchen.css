@@ -1,0 +1,19 @@
+
+body{
+    margin: 100px;
+    background-color: midnightblue;
+}
+.arrow-right{
+    padding: 50px;
+    /* border: solid blue; */
+    transition: .24s;
+    position: absolute;
+    border: solid transparent;
+    border-width: 0 0 25px 25px;
+    box-shadow: 1px -1px 0 1px blue inset;
+    transform:  rotate(45deg);
+}
+
+.arrow-right:hover{
+    box-shadow: 2px -2px 0 2px white inset;
+}

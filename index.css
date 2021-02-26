@@ -1,0 +1,71 @@
+
+
+/* MUSHROOM HOUSE */
+
+.shroom{
+  justify-content: center;
+  display: flex;
+  margin-top: 15%;
+ }
+
+.shroomCap{
+  position: relative;
+  width: 200px;
+  height: 100px;
+  border-style: solid;
+  justify-content: center;
+  display: flex;
+  align-items: baseline;
+  border-radius: 63% 36% 13% 9% / 60% 36% 66% 22%
+}
+
+.shroomCap::before{
+  content: " ";
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  border-radius: 63% 36% 13% 9% / 60% 36% 66% 22%;
+  background-image:
+  linear-gradient(rgba(0,0,0,1) 1px, transparent 1px),
+  linear-gradient(0, rgba(0,0,0,.015) 1px, transparent 1px);
+  background-size:5px 5px;
+  background-position:-1px -1px, -1px -1px}
+
+.shroomCap::after{
+  content: " ";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-top: none;
+  border-radius: 25% 22% 25% 19% / 76% 74% 25% 25%;
+  margin-top: 100px;
+}
+
+.shroomDoor{
+  background:black;
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 155px;
+}
+.shroomDoorKnob{
+  background:white;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  right: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  justify-content: center;
+  white-space: nowrap;
+  margin-top: 100px;
+  
+}

@@ -1,0 +1,1 @@
+console.log(" strip: https://gist.github.com/kconragan/2501349#file-dabblet-css-L1");

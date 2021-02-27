@@ -5,7 +5,6 @@ body{
 }
 .arrow-right{
     padding: 50px;
-    /* border: solid blue; */
     transition: .24s;
     position: absolute;
     border: solid transparent;

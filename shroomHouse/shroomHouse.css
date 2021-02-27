@@ -3,6 +3,9 @@ html{
     background-color: #FFE4C4;
 }
 
+body{
+    margin: 0 auto;
+}
 
 
 .wrapper{
@@ -27,7 +30,7 @@ html{
 }
  #leaves2{
     top: 75%;
-    left: 40%;
+    left: 30%;
 }
 
 #leaves3{
@@ -95,7 +98,25 @@ html{
     top: 310px;
     background-color: transparent;
     border-radius: 30px 20px 20px 0;
+    text-decoration: none;
 }
+
+.link a p, .link a:visited {
+    display: none;  
+    font-family:'Righteous', cursive, bold;
+    font-size:  45px;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: beige;
+    background-color: rgba(252, 201, 90, 0.5);
+    left: 20px;
+}
+
+.link a:hover p{
+    display: block;
+    text-decoration: none;
+}
+
 
 #NotKitchen{
     background-color: transparent;
@@ -138,6 +159,7 @@ html{
     position: absolute;
     display: flex;
     align-items: center;
+    left: 2%;
     top: 50%;
     z-index: 2;
   }
@@ -200,7 +222,7 @@ html{
     box-shadow: 1px -1px 0 1px white inset;
     transform:  rotate(-135deg);
     z-index: 5;
-    left: 130%;
+    left: 132%;
     top: 600px;
 }
 

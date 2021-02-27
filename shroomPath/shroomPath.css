@@ -1,0 +1,69 @@
+html{
+    background-color: #FFE4C4;
+}
+
+body{
+    margin: 0 0 0 0;
+}
+
+
+#leaves,#leaves2{
+    position: absolute;
+    display: flex;
+    background: transparent;    
+    padding:0;
+    margin:0;
+    overflow: hidden;
+}
+
+#leaves{
+    width: 100%;
+    height: 100%;
+    left: 10%;
+    top: 30%;
+}
+
+#leaves2{
+    left: -10%;
+    width: 80%;
+    height: 80%;
+
+}
+
+.wrapper{
+    min-height: 1000px; min-width: 960px;
+    height: 100%; width: 100%;
+ } 
+
+
+ .arrow-up{
+    padding: 50px;
+    transition: .24s;
+    position: absolute;
+    border: solid transparent;
+    border-width: 0 0 25px 25px;
+    box-shadow: 1px -1px 0 1px white inset;
+    transform:  rotate(135deg);
+    z-index: 5;
+    left: 500px;
+    top: 35px;
+}
+
+.arrow-up:hover{
+    box-shadow: 2px -2px 0 2px white inset;
+}
+
+ .path{
+    width: 50vw;
+    height: 300px;
+    top: 20vh;
+    position: absolute;
+    background-color: saddlebrown;
+    border: solid;
+    border-width: 10px 10px 10px 0px;
+    border-radius: 0 0 0 0;
+    border-color: #F4A460 ;
+    transform: rotate(90deg);
+    left: 210px;
+  }
+

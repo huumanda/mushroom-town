@@ -9,7 +9,10 @@ body{
     /* background-color: burlywood;  */
 }
 
+
 .kitchen-list{ 
+    list-style: none;
+
     position: relative;
     width: 20%;
     height: 100%;
@@ -23,6 +26,14 @@ body{
     /* border-radius: 30px; */
     z-index: 2;
 }
+.kitchen-list li:before {
+    margin: 0;
+}
+
+ul li:hover:before {
+    content:"\2022";
+  }
+
 
 .b1,.b2,.b3{
     background-color: transparent;
@@ -34,12 +45,7 @@ body{
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
 }
-
-
-.b1,.b2,.b3:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-  }
-
+  
 .content {
     width: 500px;
     height: 500px;

@@ -107,14 +107,14 @@ body{
     font-size:  45px;
     text-decoration-line: none;
     text-decoration: none;
-    color: beige;
     background-color: rgba(252, 201, 90, 0.5);
-    left: 20px;
 }
 
 .link a:hover p{
     display: block;
     text-decoration: none;
+    position: relative;
+    left: 10%;
 }
 
 

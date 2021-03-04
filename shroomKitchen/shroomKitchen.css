@@ -1,12 +1,12 @@
 
 body{
     margin: 0px;
-    /* background-image: url("../images/kitchen-background.png");
+    background-image: url("../images/kitchen-background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover; */
-    background-color: burlywood; 
+    background-size: cover;
+    /* background-color: burlywood;  */
 }
 
 .kitchen-list{ 
@@ -15,9 +15,12 @@ body{
     height: 100%;
     top: 200px;
     left: 70%;
-    background-color: rgba(172, 135, 99, 0.281);
-    border:2px solid saddlebrown;
-    border-radius: 30px;
+    /* background-color: rgba(172, 135, 99, 0.281); */
+    background-color: rgba(180, 139, 86, 0.747);
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png") 30 stretch;
+    /* border-radius: 30px; */
     z-index: 2;
 }
 
@@ -60,19 +63,27 @@ img {
     color: rgb(92, 42, 7);
     position: relative;
     display: inline-block;
+    background-color: burlywood;
+    padding: 10px;
   }
   
  p:after {
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 150%;
     top: 0;
     left: 105%;
     animation: slide 1s ease;
-    
-    background: burlywood;
-  }
+
+
+    background-image: url("../images/kitchen-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: padding-box;
+}
   
   @keyframes slide {
     0% {

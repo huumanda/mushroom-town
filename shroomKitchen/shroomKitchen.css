@@ -81,6 +81,7 @@ img {
     top: 0;
     left: 105%;
     animation: slide 1s ease;
+    padding: 10px;
 
 
     background-image: url("../images/kitchen-background.png");

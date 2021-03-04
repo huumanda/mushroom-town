@@ -55,7 +55,7 @@ body{
     position: absolute;
     display: flex;
     left: 210px;
-    width: 100vw;
+    width: 120vw;
     height: 300px;
     top: 500px;
     background-color: saddlebrown;
@@ -103,20 +103,39 @@ body{
 
 .link a p, .link a:visited {
     display: none;  
-    font-family:'Righteous', cursive, bold;
-    font-size:  45px;
-    text-decoration-line: none;
-    text-decoration: none;
-    background-color: rgba(252, 201, 90, 0.5);
 }
 
 .link a:hover p{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     position: relative;
-    left: 10%;
+    right: 450px;
+    top: 40px;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-decoration-line: none;
+    text-decoration: none;
+    position: relative;
+    justify-content: center;
 }
 
+.link a p:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    animation: slide 1s ease;
+    right: 1px;
+    background-repeat: no-repeat;
+
+    background-color: #FFE4C4;
+}
+
+@keyframes slide {
+    0% { top: 0;}
+    100%   { top: 10%; }
+  }  
 
 #NotKitchen{
     background-color: transparent;

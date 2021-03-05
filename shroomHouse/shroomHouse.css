@@ -98,7 +98,9 @@ body{
     top: 310px;
     background-color: transparent;
     border-radius: 30px 20px 20px 0;
+    text-decoration-line: none;
     text-decoration: none;
+    color: saddlebrown;
 }
 
 .link a p, .link a:visited {
@@ -116,9 +118,7 @@ body{
     font-size: 16px;
     text-decoration-line: none;
     text-decoration: none;
-    position: relative;
     justify-content: center;
-
 }
 
 .link a p:after {
@@ -151,7 +151,7 @@ body{
     left: 25px;
 }
 
-.link-notKitchen{
+.link-notKitchen a{
     width: 100px;
     height: 130px;
     background-color: transparent;
@@ -159,8 +159,50 @@ body{
     position: absolute;
     left: 170px;
     top: 1300px;
-    z-index: 3;
+    z-index: 2;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: wheat;
 }
+
+
+
+.link-notKitchen a p, .link-notKitchen a:visited {
+    display: none ;
+}
+
+.link-notKitchen a:hover p{
+    display: inline-block;
+    text-decoration: none;
+    left: 250px;
+    top: -20px;
+    position: relative;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-decoration-line: none;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.link-notKitchen a p:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 0;
+    animation: slide2 0.8s ease forwards;
+    right: 1px;
+    background-repeat: no-repeat;
+
+    background-color: saddlebrown;
+}
+
+@keyframes slide2 {
+    0% { top: 0;}
+    99%   { top: 100%;}
+    100% {opacity: 0;}
+  }  
 
 #shroomMisc{
     background-color: transparent;

@@ -22,7 +22,7 @@ body{
     box-shadow: 1px -1px 0 1px white inset;
     transform:  rotate(-45deg);
     z-index: 5;   
-    left: 510px;
+    left: 500px;
     bottom: -40%;
 }
 
@@ -41,7 +41,7 @@ body{
     border-radius: 0 0 0 0;
     border-color: #F4A460 ;
     transform: rotate(-90deg);
-    left: 210px;
+    left: 195px;
   }
 
   #leaves,#leaves2{

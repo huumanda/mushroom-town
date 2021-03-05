@@ -340,7 +340,7 @@ body{
     box-shadow: 1px -1px 0 1px white inset;
     transform:  rotate(-135deg);
     z-index: 5;
-    left: 132%;
+    left: 120%;
     top: 600px;
 }
 

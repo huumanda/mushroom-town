@@ -277,8 +277,8 @@ body{
     position: absolute;
     display: flex;
     align-items: center;
-    left: 2%;
-    top: 50%;
+    left: 20px;
+    top: 420px;
     z-index: 2;
   }
 

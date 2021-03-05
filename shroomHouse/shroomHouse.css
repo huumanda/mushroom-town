@@ -36,6 +36,7 @@ body{
 #leaves3{
     right: 30%;
     top: 30%;
+    z-index: 2;
 } 
 
 
@@ -204,6 +205,59 @@ body{
     100% {opacity: 0;}
   }  
 
+
+.link-shroomMisc a{
+    width: 130px;
+    height: 80px;
+    background-color: transparent;
+    display: flex ;
+    position: absolute;
+    left: 1105px;
+    top: 1130px;
+    border-radius: 20px;
+    z-index: 2;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: saddlebrown;
+}
+
+.link-shroomMisc p{
+    display: none;
+}
+
+.link-shroomMisc a:hover p{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-decoration-line: none;
+    text-decoration: none;
+    justify-content: center;
+    top: 100px;
+    left: -100px;
+}
+
+.link-shroomMisc a p:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    animation: slide3 1s ease forwards;
+    right: 1px;
+    background-repeat: no-repeat;
+
+    background-color: #FFE4C4;
+}
+
+@keyframes slide3 {
+    0% { top: 0;}
+    99%   { top: 100%;}
+    100% {opacity: 0;}
+  }  
+
 #shroomMisc{
     background-color: transparent;
     position: absolute;
@@ -309,6 +363,8 @@ body{
     text-align: justify;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
 /*  
 .read-me p{
     display: none;

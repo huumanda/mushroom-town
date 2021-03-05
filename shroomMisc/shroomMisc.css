@@ -1,0 +1,137 @@
+
+body{
+    margin: 0px;
+    background-image: url("../images/shroom-misc.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.notKitchen-list{ 
+    list-style: none;
+
+    position: relative;
+    width: 20%;
+    height: 250px;
+    top: 200px;
+    left: 70%;
+    /* background-color: rgba(172, 135, 99, 0.281); */
+    background-color: rgba(250, 152, 201, 0.747);
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png") 30 stretch;
+    /* border-radius: 30px; */
+    z-index: 2;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.notKitchen-list li:before {
+    margin: 0;
+}
+
+ul li:hover:before {
+    content:"\2022";
+  }
+
+
+li{
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.content {
+    width: 500px;
+    height: 500px;
+    left: 20%;
+    top: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+figcaption{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(250, 152, 201, 0.747);
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+img {
+    width: 500px;
+    height: auto;
+  }
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 12px;
+    color: rgb(250, 225, 255);
+    position: relative;
+    display: inline-block;
+    background-color: rgb(211, 60, 148);
+    padding: 10px;
+    font-weight: 530;
+  }
+  
+ p:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    left: 105%;
+    animation: slide 1s ease;
+    padding: 10px;
+
+
+    background-image: url("../images/shroom-misc.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: padding-box;
+}
+  
+  @keyframes slide {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 105%;
+    }
+  }
+
+  
+ #i1, #i2, #i3, #i4,#i5{
+    display: none;
+  }
+  
+  button {
+    outline: none;
+  }
+
+
+  .arrow-left{
+    padding: 10px;
+    transition: .24s;
+    position: absolute;
+    border: solid transparent;
+    border-width: 0 0 25px 25px;
+    box-shadow: 1px -1px 0 1px white inset;
+    transform:  rotate(45deg);
+    left: 0;
+    z-index: 5;
+}

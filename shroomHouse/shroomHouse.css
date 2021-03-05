@@ -293,3 +293,39 @@ body{
 .arrow-right:hover{
     box-shadow: 2px -2px 0 2px white inset;
 }
+
+
+.read-me{ 
+    position: relative;
+    width: 350px;
+    border: 2px solid rgb(194, 85, 52);
+    padding: 5px;
+    z-index: 2;
+    left: 20px;
+    top: 550px;
+    font-size: 16px;
+    color: rgb(83, 59, 13);
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*  
+.read-me p{
+    display: none;
+}
+
+.read-me h1:hover + .read-me p{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-decoration-line: none;
+    text-decoration: none;
+    justify-content: center;
+}
+
+
+ */
+

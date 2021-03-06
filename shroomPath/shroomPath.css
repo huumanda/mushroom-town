@@ -67,3 +67,8 @@ body{
     left: 195px;
   }
 
+  .shroomticle{
+      position: absolute;
+      left: 800px;
+      top: 100px;
+  }

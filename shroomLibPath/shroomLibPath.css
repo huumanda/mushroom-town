@@ -66,3 +66,62 @@ body{
     top: 50%;
 
 }
+
+#library{
+    left: 800px;
+    position: absolute; 
+}
+
+
+
+.link a{
+    width: 240px;
+    height: 130px;
+    background-color: transparent;
+    display: flex ;
+    position: relative;
+    border-radius: 20px;
+    z-index: 2;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: saddlebrown;
+    justify-content: center;
+    left: 320px;
+    top: -160px;
+}
+
+.link p{
+    display: none;
+}
+
+ .link a:hover p{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-decoration-line: none;
+    text-decoration: none;
+    justify-content: center;
+    top: 150px;
+}
+.link a p:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    animation: slide3 1s ease forwards;
+    right: 1px;
+    background-repeat: no-repeat;
+
+    background-color: #FFE4C4;
+}
+
+
+@keyframes slide3 {
+    0% { top: 0;}
+    99%   { top: 100%;}
+    100% {opacity: 0;}
+  }  

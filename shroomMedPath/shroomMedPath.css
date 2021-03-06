@@ -65,3 +65,11 @@ body{
     top: 50%;
 
 }
+
+
+#shroomMayor{
+    position: absolute;
+    left: 800px;
+    top: 50px;
+    z-index: -2;
+}

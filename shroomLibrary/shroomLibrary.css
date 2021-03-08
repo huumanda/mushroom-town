@@ -9,9 +9,93 @@ body{
     overflow: hidden;
 }
 
-.li{
+ul, li, li a{
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-decoration: none;
-    /* list-style: none; */
+    list-style: none;
+}
+
+.arrows{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.text-reveal{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.background-clip{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+.border-image{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
+}
+.border-radius{
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    white-space: nowrap;
+}
+
+.background-resp{
+    position: absolute;
+    top: 90%;
+    left: 62%;
+}
+.github-desktop{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+}
+
+.photoshop{
+    position: absolute;
+    top: 34%;
+    left: 58%;
+}
+
+.falling-leaves{
+    position: absolute;
+    top: 78%;
+    left: 45%;
+}
+
+.position{
+    position: absolute;
+    top: 61%;
+    left: 90%;
+}
+
+.drawing{
+    position: absolute;
+    top: 52%;
+    left: 78%;
+}
+
+.rgba{
+    position: absolute;
+    top: 67%;
+    left: 68%;
+}
+
+.stripes{
+    position: absolute;
+    top: 87%;
+    left: 18%;
+}
+
+.test{
+    position: absolute;
+    top: 10%;
+    left: 78%;
 }

@@ -135,4 +135,5 @@ img {
     transform:  rotate(45deg);
     left: 0;
     z-index: 5;
+    backface-visibility: hidden;
 }

@@ -306,6 +306,7 @@ body{
     z-index: 5;
     left: 500px;
     top: 35px;
+    backface-visibility: hidden;
 }
 
 .arrow-up:hover{
@@ -324,7 +325,7 @@ body{
     z-index: 5;   
     left: 500px;
     bottom: -75%;
-
+    backface-visibility: hidden;
 }
 
 .arrow-down:hover{
@@ -342,6 +343,7 @@ body{
     z-index: 5;
     left: 120%;
     top: 600px;
+    backface-visibility: hidden;
 }
 
 .arrow-right:hover{

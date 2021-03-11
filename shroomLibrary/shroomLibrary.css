@@ -99,3 +99,51 @@ ul, li, li a{
     top: 10%;
     left: 78%;
 }
+
+.flashlight{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}
+
+.font1{
+    position: absolute;
+    top: 26%;
+    left: 63%;
+
+}
+
+.font2{
+    position: absolute;
+    top: 80%;
+    left: 0;
+
+}
+.stock{
+    position: absolute;
+    top: 65%;
+    left: 28%;
+}
+
+.colour{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+.text-wrap{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+}
+.article{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+.button{
+    position: absolute;
+    top: 42%;
+    left: 72%;
+}

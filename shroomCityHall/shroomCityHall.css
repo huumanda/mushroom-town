@@ -72,6 +72,7 @@ body{
     position: absolute;
     left: 800px;
     top: 50px;
+    z-index: 1;
 }
 
 .link a{
@@ -80,7 +81,7 @@ body{
     display: flex ;
     position: absolute;
     border-radius: 20px;
-    z-index: 2;
+    z-index: 12;
     text-decoration-line: none;
     text-decoration: none;
     color: saddlebrown;
@@ -88,6 +89,7 @@ body{
     left: 240px;
     top: 520px;
     background-color: transparent;
+
 }
 
 .link p{

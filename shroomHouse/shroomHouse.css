@@ -24,7 +24,7 @@ body{
     margin:0;
     overflow: hidden;
     pointer-events: none;
-    z-index: -2;
+    z-index: 2;
 }
 
 #leaves{
@@ -50,6 +50,7 @@ body{
     border: solid;
     border-width: 0 10px 0px 10px;
     border-color: #F4A460 ;
+    z-index: -1;
   }
 
 .path::before{
@@ -64,6 +65,7 @@ body{
     border: solid;
     border-width: 10px 0px 10px 0px;
     border-color: #F4A460;
+    z-index: -1;
 }
 
 .path::after{
@@ -78,6 +80,7 @@ body{
     border: solid;
     border-width: 10px 0px 10px 0px;
     border-color: saddlebrown ;
+    z-index: -1;
 }
   
 #kitchen{

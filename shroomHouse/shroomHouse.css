@@ -24,6 +24,7 @@ body{
     margin:0;
     overflow: hidden;
     pointer-events: none;
+    z-index: -2;
 }
 
 #leaves{
@@ -37,7 +38,6 @@ body{
 #leaves3{
     right: 30%;
     top: 30%;
-    z-index: 2;
 } 
 
 
@@ -93,7 +93,7 @@ body{
 .link a{
     position: absolute;
     display: flex;
-    z-index: 2;
+    z-index: 10;
     width: 75px;
     height: 175px;
     left: 1310px;
@@ -162,7 +162,7 @@ body{
     position: absolute;
     left: 170px;
     top: 1300px;
-    z-index: 2;
+    z-index: 10;
     text-decoration-line: none;
     text-decoration: none;
     color: wheat;

@@ -34,7 +34,14 @@ h4{
     color: #010101;
     font-size: 25px;
     line-height: 1.5;
+    text-transform: uppercase;
 }
+
+a, a:visited{
+    text-decoration: none;
+    color: #010101;
+}
+
 
 h1{
     font-size: 25px;
@@ -71,6 +78,17 @@ p{
     border-width: 0 0 25px 25px;
     box-shadow: 1px -1px 0 1px black;
     transform:  rotate(-135deg);
+    z-index: 5;
+    backface-visibility: hidden;
+}
+
+.arrow-right{
+    padding: 10px;
+    transition: .24s;
+    position: absolute;
+    border: solid transparent;
+    border-width: 0 0 25px 25px;
+    box-shadow: 1px -1px 0 1px black;
     z-index: 5;
     backface-visibility: hidden;
 }
